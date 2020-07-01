@@ -368,6 +368,7 @@ module.exports = {
     ]
 
   },
+  pathPrefix: "/gatsby-markdown",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

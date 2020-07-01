@@ -3,7 +3,6 @@ import Styles from "../../Style/movie.module.scss"
 import StarRatings from 'react-star-ratings';
 
 const Card = (props) => {
-    console.log(props)
     const baseurl = "https://image.tmdb.org/t/p/w342"
     return (
         <div className={props.showIndex === props.index ? Styles.column_active : Styles.column}>
